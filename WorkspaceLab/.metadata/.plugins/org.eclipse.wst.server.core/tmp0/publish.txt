@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed May 16 15:10:30 IST 2018
+org.eclipse.jst.jee.server\:spring.mvc=C\:\\Spring boot Soft\\spring-tool-suite-3.8.3.RELEASE-e4.6.2-win32-x86_64\\sts-bundle\\pivotal-tc-server-developer-3.2.2.RELEASE\\base-instance\\wtpwebapps\\spring.mvc
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\verizon\\.m2\\repository\\org\\springframework\\spring-web\\4.3.10.RELEASE\\spring-web-4.3.10.RELEASE.jar=C\:\\Spring boot Soft\\spring-tool-suite-3.8.3.RELEASE-e4.6.2-win32-x86_64\\sts-bundle\\pivotal-tc-server-developer-3.2.2.RELEASE\\base-instance\\wtpwebapps\\spring.mvc\\WEB-INF\\lib\\spring-web-4.3.10.RELEASE.jar

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-jdbc"/>
+<aop-project name="spring-app1"/>
+<aop-project name="spring-app2"/>
+<aop-project name="spring-app3"/>
+<aop-project name="spring-aop1"/>
+<aop-project name="spring-jpa"/>
+<aop-project name="spring.mvc.rest"/>
+<aop-project name="spring.mvc"/>
+</aop-reference-model>

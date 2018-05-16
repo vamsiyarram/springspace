@@ -1,0 +1,9 @@
+package com.demo.spring;
+
+public class Employee {
+
+	private Integer empId;
+	private string empName;
+	private string city;
+	private double salary;
+}

@@ -1,0 +1,13 @@
+package com.demo.spring;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+@Configuration
+@ComponentScan(basePackages = "com.demo.spring")
+public class AppConfig {
+	public DriverManagerDataSource dataSource() {
+		DriverManagerDataSource ds = new DriverManagerDataSource();
+	}
+}

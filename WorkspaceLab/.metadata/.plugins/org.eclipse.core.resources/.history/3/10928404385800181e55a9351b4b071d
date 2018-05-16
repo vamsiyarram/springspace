@@ -1,0 +1,49 @@
+package com.demo.spring;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+public class EmpDapJpaImpl implements EmpDao {
+
+	@PersistenceContext
+	EntityManager em;
+
+	@Override
+	public String saveEmp(Employee e) {
+		em.persist(e);
+		return "saved";
+	}
+
+	@Override
+	public List<Employee> getAllEmps() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee findById(int empId) {
+		Employee e = em.find(Employee.class, empId);
+		return e;
+	}
+
+	@Override
+	public String deleteEmp(int empid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee updateEmp(Employee e) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String saveAll(List<Employee> empList) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

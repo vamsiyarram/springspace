@@ -1,0 +1,12 @@
+package com.demo.spring;
+
+public class MyLogger {
+
+	public void logBefore() {
+		System.out.println("Logging before method call..");
+	}
+
+	public void logAfter() {
+		System.out.println("Logging after method call..");
+	}
+}

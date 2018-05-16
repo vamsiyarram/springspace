@@ -1,0 +1,11 @@
+package com.demo.service;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmpRestService {
+
+	public String info() {
+		return "This is EMP Rest Service";
+	}
+}
