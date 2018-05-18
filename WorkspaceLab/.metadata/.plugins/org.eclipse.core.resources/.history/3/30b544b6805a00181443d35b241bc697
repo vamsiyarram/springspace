@@ -1,0 +1,15 @@
+server.port=9999
+spring.application.name=emp-zuul-proxy
+
+eureka.client.register-with-eureka=true
+eureka.client.service-url.defaultZone=https://localhost:8761/eureka/
+
+zuul.prefix=/api
+zuul.routes.get-by-host.path=/byhost/**
+zuul.routes.get-by-host.url=http://localhost:8081/
+
+zuul.routes.get-by-service.path=/service/**
+zuul.routes.get-by-service.url=emp-service
+
+zuul.routes.get-by-redirect.path=/redirect/**
+zuul.routes.get-by-redirect.url=http://www.google.co.in

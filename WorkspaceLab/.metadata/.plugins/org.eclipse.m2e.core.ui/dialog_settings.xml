@@ -5,9 +5,11 @@
 			<item value="com.demo"/>
 		</list>
 		<list key="name">
+			<item value="secured-rest-client"/>
 			<item value="spring.mvc.rest"/>
 		</list>
 		<list key="artifactId">
+			<item value="secured-rest-client"/>
 			<item value="spring.mvc.rest"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -19,8 +21,8 @@
 			<item value="[name]"/>
 		</list>
 		<list key="version">
-			<item value="1.0"/>
 			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.0"/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
@@ -33,6 +35,19 @@
 		<list key="issueManagementSystem">
 		</list>
 		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Spring\WorkspaceLab"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
@@ -48,9 +63,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Spring\WorkspaceLab"/>
 			<item value="C:\Spring\WorkspaceLab\spring.mvc"/>
 			<item value="C:\Spring\WorkspaceLab\"/>
-			<item value="C:\Spring\WorkspaceLab"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

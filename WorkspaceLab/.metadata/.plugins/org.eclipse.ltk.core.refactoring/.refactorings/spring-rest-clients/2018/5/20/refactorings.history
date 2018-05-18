@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;emp-service-client/src/main/java/com.demo.spring&apos;&#x0D;&#x0A;- Original project: &apos;spring-rest-clients&apos;&#x0D;&#x0A;- Destination element: &apos;emp-service-client/src/main/java/com.demo.spring&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.demo.spring.Employee.java&#x0D;&#x0A;     com.demo.spring.RestClient.java" description="Copy compilation units" destination="=emp-service-client/src\/main\/java&lt;com.demo.spring" element1="/src\/main\/java&lt;com.demo.spring{Employee.java" element2="/src\/main\/java&lt;com.demo.spring{RestClient.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1526627061995" units="2" version="1.0"/>
+</session>
